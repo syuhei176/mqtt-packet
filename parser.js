@@ -235,7 +235,7 @@ Parser.prototype._parseConnack = function () {
   var packet = this.packet
   packet.sessionPresent = !!(this._list.readUInt8(this._pos++) & constants.SESSIONPRESENT_MASK)
   packet.returnCode = this._list.readUInt8(this._pos)
-  if(this._list.length == 10) {
+  if(this._list.length >= 10) {
     var t1 = this._list.readUInt32BE(this._pos);
     this._pos+=4;
     var t2 = this._list.readUInt32BE(this._pos);
