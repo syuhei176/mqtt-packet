@@ -1,11 +1,10 @@
 {
-  "name": "mqtt-packet",
+  "name": "mqtt-packet-for-milkcocoa",
   "version": "3.2.0",
-  "description": "Parse and generate MQTT packets like a breeze",
+  "description": "Parse and generate MQTT packets like a breeze for Milkcocoa",
   "main": "mqtt.js",
   "contributors": [
-    "Matteo Collina <matteo.collina@gmail.com> (https://github.com/mcollina)",
-    "Adam Rudd <damvrr@gmail.com>"
+
   ],
   "scripts": {
     "test": "tape test.js | faucet"
@@ -13,7 +12,7 @@
   "pre-commit": "test",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mqttjs/mqtt-packet.git"
+    "url": "https://github.com/syuhei176/mqtt-packet.git"
   },
   "keywords": [
     "MQTT",
@@ -25,9 +24,8 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mqttjs/mqtt-packet/issues"
+    "url": "https://github.com/syuhei176/mqtt-packet/issues"
   },
-  "homepage": "https://github.com/mqttjs/mqtt-packet",
   "devDependencies": {
     "faucet": "0.0.1",
     "pre-commit": "0.0.9",
